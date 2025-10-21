@@ -46,7 +46,7 @@ const EMAILJS_TEMPLATE_LEMBRETE_ID = 'template_63xuzeb';
 
 // Inicializa o EmailJS
 if (window.emailjs) {
-    emailjs.init(EMAILJS_PUBLIC_KEY);
+   emailjs.init('-c_NFKDw9ZwMHBQm6');
 } else {
     // console.error("EmailJS SDK não carregado. Verifique o script no index.html.");
 }
